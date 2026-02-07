@@ -19,7 +19,7 @@ body {
 
 header {
   position: fixed;
-  top: 5;
+  top: 0;
   width: 100%;
   background: rgba(26, 35, 74, 0.9);
   
@@ -467,11 +467,23 @@ html {
 .card-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 15px;
+    gap: 10px;
+    flex-wrap: nowrap;
+    
 }
 
-.proj-title { font-size: 1.1rem; margin: 0; }
+.proj-title { font-size: 1.1rem; margin: 0;
+ flex-grow: 1;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow:ellipsis;
+ flex-shrink:1;
+ margin:0;
+ font-size:1.1rem;
+ flex-shrink: 1;
+}
 .blue-text { color: #3b82f6; }
 
 /* GitHub & Demo Icons Styling */
@@ -480,6 +492,11 @@ html {
     font-size: 1.2rem;
     margin-left: 15px;
     transition: 0.3s;
+}
+.proj-links {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
 }
 
 .proj-links a:hover {
@@ -704,3 +721,273 @@ nav a::after {
 nav a:hover::after {
     width: 100%;
 }
+
+
+/*  ---for mobaile screen---*/
+
+
+@media (max-width: 768px) {
+    /* 1. Navigation Fix */
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+       gap: 8px;
+       padding: 1rem;
+    }
+
+    nav a {
+      font-size: 13px;
+
+    }
+    nav ul {
+        display: flex; 
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+
+    /* 2. Home Section Fix */
+    .home {
+        flex-direction: column-reverse; /* Image upar, text niche */
+        text-align: center;
+        padding-top: 8rem;
+        
+    }
+    .home-img img {
+        width: 200px; 
+        height: 200px;
+        transform: scale(1); 
+    }
+    .home-text h1 {
+        font-size: 1.6rem;
+        white-space: normal;
+        text-align: center;
+        width: 100%;
+        line-height: 1.2;
+    }
+
+  .home-text p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 15px;
+    line-height: 1.6;
+
+  }
+    .buttons {
+        justify-content: center;
+        font-size: 10px 
+    }
+
+    /* 3. About Section Fix */
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+    .about-left img {
+        width: 200px; 
+        max-width: 280px; 
+        height: 300px;
+        object-fit: cover;
+        margin: auto;
+        
+    }
+
+    .about-right {
+      padding: 0 20px;
+      margin-top: 20px;
+      
+      
+    }
+    .about-right p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+    .about-right h2 {
+        font-size: 28px;
+    }
+     
+
+    /* 4. Education & Projects Fix */
+    .edu-list {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px ;
+        padding: 10px 0;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr; 
+    }
+    .edu-card{
+      display: inline-block;
+      width: 85%;
+      margin: 0 auto 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      text-align: left;
+      
+    }
+    .edu-card p {
+      text-align: left;
+      line-height: 1.5;
+      margin-bottom: 5px;
+    }
+
+    .edu-year {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 5px;
+      font-size: 11px;
+      font-weight: bold;
+      white-space: nowrap;
+      color: #1f242d;
+      
+    }
+    .edu-head {
+      display: flex;
+      justify-content: space-between;
+      align-items:center ;
+      flex-wrap: nowrap;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .edu-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom:12px; 
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    
+    .edu-card h3{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 17px;
+      margin-bottom: 10px;
+      }
+
+      .edu-top h4 {
+        display: flex;
+        align-items: center;
+        gap:8px;
+        font-size: 14px;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        
+      }
+       .edu-card h3 i {
+        font-size: 20px;
+      }
+    
+    /* 5. Skills Fix */
+    .title {
+        font-size: 2.2rem;
+    }
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+     
+     .skill-card {
+     width: 85%;
+      margin: 0 auto 1px auto;
+      display: block;
+      box-sizing: border-box;
+      
+      .skill-card i, .skill-card img {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+
+      .skil-card h3 {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+     }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 0 10px;
+    }
+
+    .buttons a {
+      flex: 1;
+      font-size: 12px;
+      padding: 10px 5px;
+      text-align: center;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .buttons a i {
+      margin-right: 4px;
+      font-size: 14px;
+    }
+
+    /*  project  */
+     .project-card {
+      width: 85%;
+      margin: 0 auto 1px auto;
+      display: block;
+      box-sizing: border-box;
+      }
+
+     .project-card {
+      padding: 20px;
+     }
+
+     .project-card p {
+      font-size: 13px;
+      text-align: left;
+     }
+
+     #project {
+      padding-left: 0;
+      padding-right: 0;
+      text-align: center;
+     }
+  
+    .project-card h3 {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      font-size: 11px;
+      white-space: normal;
+      display: block;
+      }
+    
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+}
+
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: 1fr; 
+    }
+    .contact-left, .contact-right {
+        min-width: 100%;
+    }
+}
+
+

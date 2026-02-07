@@ -25,8 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add("show");
-                
-                
                 if (entry.target.classList.contains('about')) {
                     eduCards.forEach((card, i) => {
                         setTimeout(() => card.classList.add("show"), i * 200);
