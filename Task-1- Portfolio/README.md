@@ -1,31 +1,32 @@
-# 🌐 Personal Portfolio Website
-A modern and fully responsive personal portfolio website built using HTML, CSS, and Vanilla JavaScript.
-This portfolio highlights my journey as a web developer, presenting my education, technical skills, and real-world projects through smooth animations, interactive components, and a clean, professional layout. The goal of this project is to demonstrate my front-end development abilities and my attention to detail while creating an engaging experience for visitors and potential collaborators.
+# 🌐 Personal Portfolio Website  
+
+A responsive portfolio website built with HTML, CSS, and Vanilla JavaScript.  
+It highlights my profile, education, skills, and projects using smooth animations and interactive UI.
 
 ---
 
-# 🚀 Live Demo
+## 🚀 Live Demo  
 
-👉 Add your deployed link here
-
----
-
-# ✨ Features
-
-- Fully responsive across desktop, tablet, and mobile devices  
-- Clean and modern UI with gradient styling  
-- Typing animation on the hero section  
-- Scroll-based reveal animations using Intersection Observer  
-- Animated About & Education sections  
-- Interactive skill cards with mouse glow hover effect  
-- Project cards animation on scroll  
-- Active navigation link highlighting  
-- Contact form powered by Formspree  
-- Resume download and social media links  
+👉 Add your deployed link here  
 
 ---
 
-# 🛠️ Technologies Used
+## ✨ Features  
+
+- Responsive design  
+- Modern UI  
+- Typing animation  
+- Scroll reveal effects  
+- Animated About & Education  
+- Interactive skills section  
+- Project animations  
+- Active navigation  
+- Contact form via Formspree  
+- Resume & social links  
+
+---
+
+## 🛠️ Technologies Used  
 
 - HTML5  
 - CSS3  
@@ -36,13 +37,13 @@ This portfolio highlights my journey as a web developer, presenting my education
 
 ---
 
-# 📂 Sections
+## 📂 Sections  
 
 Home • About • Education • Skills • Projects • Contact • Footer  
 
 ---
 
-# 📁 Folder Structure
+## 📁 Folder Structure  
 
 ├── index.html  
 ├── style.css  
@@ -53,23 +54,24 @@ Home • About • Education • Skills • Projects • Contact • Footer
 
 ---
 
-# 🧑‍💻 Run Locally
+## 🧑‍💻 Run Locally  
 
-1. Clone the repository  
-2. Open the project folder  
-3. Run `index.html` in your browser  
-
----
-
-# 🤖 AI Acknowledgment
-
-AI tools were used for guidance, debugging, and documentation assistance during development.  
-All design decisions, feature implementation, and final code integration were done by me.
+1. Clone repository  
+2. Open folder  
+3. Run `index.html`  
 
 ---
 
-# 📬 Contact
+## 🤖 AI Acknowledgment  
 
-Safiya Fatima 
+AI tool (chatgpt) were used for guidance and debugging.  
+All final design decisions and implementations were done by me.
+
+---
+
+## 📬 Contact  
+
+Safiya Fatima  
+
 GitHub: https://github.com/SafiyaFatima08  
-LinkedIn: https://www.linkedin.com/in/safiya-fatima-296886370
+LinkedIn: https://www.linkedin.com/in/safiya-fatima-296886370  
