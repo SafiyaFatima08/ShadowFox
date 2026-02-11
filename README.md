@@ -1,7 +1,7 @@
 # 🌐 Personal Portfolio Website
-
 A modern and fully responsive personal portfolio website built using HTML, CSS, and Vanilla JavaScript.
-This project showcases my profile, education, technical skills, and featured projects through smooth animations, interactive UI elements, and a clean visual design aimed at creating a strong first impression for recruiters and hiring managers.
+
+This portfolio highlights my journey as a web developer, presenting my education, technical skills, and real-world projects through smooth animations, interactive components, and a clean, professional layout. The goal of this project is to demonstrate my front-end development abilities and my attention to detail while creating an engaging experience for visitors and potential collaborators.
 
 ---
 
