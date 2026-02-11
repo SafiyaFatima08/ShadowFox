@@ -7,7 +7,7 @@ It highlights my profile, education, skills, and projects using smooth animation
 
 ## 🚀 Live Demo  
 
-👉 Add your deployed link here  
+👉 https://shadow-fox-nine.vercel.app/#about
 
 ---
 
