@@ -64,7 +64,7 @@ Home • About • Education • Skills • Projects • Contact • Footer
 
 ## 🤖 AI Acknowledgment  
 
-AI tool (chatgpt) were used for guidance and debugging.  
+AI tool (chatgpt) were used for guidance.  
 All final design decisions and implementations were done by me.
 
 ---
