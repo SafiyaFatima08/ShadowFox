@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // 1. TYPING ANIMATION FIX
+    // 1. Typing Animation fix
     
     let index = 0;
     const typingEl = document.querySelector(".typing");
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     typeEffect();
 
-    // 2. ABOUT & EDUCATION ANIMATION (Combined & Cleaned)
+    // 2. About & Education Animation 
     const about = document.querySelector(".about");
     const eduCards = document.querySelectorAll(".edu-card");
     const eduIcon = document.querySelector(".edu-heading i");
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (about) appearanceObserver.observe(about);
     if (eduIcon) appearanceObserver.observe(eduIcon);
 
-    // 3. SKILL CARDS MOUSE GLOW
+    // 3. Skill Card Mouse Glow
     const skillCards = document.querySelectorAll('.skill-card');
     skillCards.forEach(card => {
         card.addEventListener('mousemove', (e) => {
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // 4. PROJECT CARDS ANIMATION
+    // 4. Project Card Animation
     const projectCards = document.querySelectorAll('.project-card');
     const projectObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
