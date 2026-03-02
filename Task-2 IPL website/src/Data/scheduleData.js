@@ -1,0 +1,80 @@
+const scheduleData = [
+  
+  {
+    id: 1,
+    team1: "CSK",
+    team2: "MI",
+    team1Logo: "/assets/csk.png", 
+    team2Logo: "/assets/mi.png",
+    date: "2025-03-20",
+    time: "7:30 PM",
+    venue: "Chennai",
+    status: "completed",
+    score: "CSK 178/6",
+    result: "CSK won by 5 wickets",
+  },
+  {
+    id: 2,
+    team1: "RCB",
+    team2: "CSK",
+    team1Logo: "/assets/rcb.png", 
+    team2Logo: "/assets/csk.png",
+    date: "2025-03-25",
+    time: "7:30 PM",
+    venue: "Bangalore",
+    status: "completed",
+    score: "CSK 162/4",
+    result: "CSK won by 6 wickets",
+  },
+
+  //  LIVE
+  {
+    id: 3,
+    team1: "GT",
+    team2: "CSK",
+    team1Logo: "/assets/GT.png", 
+    team2Logo: "/assets/csk.png",
+    date: "2025-04-02",
+    time: "7:30 PM",
+    venue: "Ahmedabad",
+    status: "live",
+    score: "CSK 125/3 (15.4)",
+  },
+
+  //  UPCOMING
+  {
+    id: 4,
+    team1: "CSK",
+    team2: "SRH",
+    team1Logo: "/assets/csk.png", 
+    team2Logo: "/assets/srh.png",
+    date: "2025-04-06",
+    time: "7:30 PM",
+    venue: "Chennai",
+    status: "upcoming",
+  },
+  {
+    id: 5,
+    team1: "PBKS",
+    team2: "CSK",
+    team1Logo: "/assets/pbks.png", 
+    team2Logo: "/assets/csk.png",
+    date: "2025-04-10",
+    time: "7:30 PM",
+    venue: "Mohali",
+    status: "upcoming",
+  },
+  {
+    id: 6,
+    team1: "CSK",
+    team2: "DC",
+     team1Logo: "/assets/csk.png", 
+    team2Logo: "/assets/dc.png",
+    date: "2025-04-14",
+    time: "7:30 PM",
+    venue: "Chennai",
+    status: "upcoming",
+  },
+];
+
+export default scheduleData;
