@@ -1,4 +1,4 @@
-# 🦁 CSK Universe - The Ultimate Fan Hub (Task-2)
+# 🦁 CSK Universe - The Ultimate Fan Hub 
 
 A high-performance, interactive web portal dedicated to **Chennai Super Kings** fans. Built using **React.js** and **Vite** during the ShadowFox Internship, this project provides a premium experience to explore player stats, match schedules, and team news.
 
